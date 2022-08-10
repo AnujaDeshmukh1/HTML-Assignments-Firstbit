@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <fieldset>
+    <legend>Please fill the information</legend>
+    <br>
+
+    <form action="/regform">
+        <label for="fname">First Name: </label><br>
+        <input type="text" name="firstname" id="fname" placeholder="Enter your firstname">
+
+        <br>
+        <br>
+        
+        <label for="mname">Middle Name: </label><br>
+        <input type="text" name="middlename" id="mname" placeholder="Enter your middlename">
+
+        <br>
+        <br>
+
+        <label for="lname">Last Name: </label><br>
+        <input type="text" name="lastname" id="lname" placeholder="Enter your lastname">
+
+        <br>
+        <br>
+
+        <label for="dob">DOB:</label><br>
+        <input type="date" name="bdate" id="dob">
+
+        <br>
+        <br>
+
+        <label for="mob">Mobile No:</label><br>
+        <input type="tel" name="mobile" id="mob">
+        
+        <br>
+        <br>
+
+        <label for="email">Email: </label><br>  
+        <input type="email" id="email" name="email"/>
+
+        <br>
+        <br>
+
+        <label for="gender">Gender: </label>  
+        <input type="radio" id="gender" name="gender" value="male"/>Male  
+        <input type="radio" id="gender" name="gender" value="female"/>Female<br>
+
+        <br>
+
+        <label for="address">Address:</label><br>
+        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your Address"></textarea>
+        <br>
+        <br>
+
+        <label for="courses">Select Your Course:</Select></label>
+        <select name="courses" id="courses">
+            <option value="msg">None</option>
+            <option value="html">HTML5</option>
+            <option value="css">CSS3</option>
+            <option value="js">JavaScript</option>
+            <option value="react">React</option>
+            <option value="angular">Angular</option>
+
+        </select>
+
+        <br>
+        <br>
+
+        <div>
+            Hobby: <br>
+            <input type="checkbox" id="reading" name="reading" value="reading"/>
+            <label for="reading">Reading Books</label><br>
+
+            <input type="checkbox" id="art" name="art" value="art"/>
+            <label for="writing">Arts & Crafts</label><br>
+
+            <input type="checkbox" id="watching" name="watching" value="reading"/>
+            <label for="watching">Watching Movies</label><br>
+
+            <input type="checkbox" id="gardening" name="gardening" value="reading"/>
+            <label for="gardening">Gardening</label><br>
+
+            <input type="checkbox" id="cooking" name="cooking" value="cooking"/>
+            <label for="cooking">Cooking</label><br>
+        </div>
+
+        <br>
+        <br>
+
+        <button type="submit">Submit</button>
+
+        
+
+    </form>
+    </fieldset>
+    <br>
+    <br>
+</body>
+</html>
